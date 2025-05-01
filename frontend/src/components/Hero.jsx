@@ -14,7 +14,7 @@ const Hero = () => {
         />
         <div className="absolute inset-0 flex flex-col justify-center px-4 md:px-10 space-y-2 md:space-y-4 text-white text-shadow-black">
           <h1 className="text-3xl md:text-5xl font-extrabold">Get Fresh</h1>
-          <h2 className="text-4xl md:text-6xl font-extrabold text-green-500">
+          <h2 className="text-4xl md:text-6xl font-extrabold text-green-600">
             Fruits & Vegetables
           </h2>
           <h3 className="text-xl md:text-3xl font-semibold">
