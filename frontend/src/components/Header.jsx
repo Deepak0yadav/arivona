@@ -27,7 +27,7 @@ const Header = () => {
     <header className="fixed top-0 left-0 w-full z-50 bg-white shadow-md">
       <div className="flex items-center justify-between px-6 py-4">
         {/* Logo */}
-        <h1 className="text-2xl font-bold text-green-700">Arivona</h1>
+        <h1 className="text-2xl font-extrabold text-green-700">Arivo</h1>
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex gap-6 text-gray-700 text-lg font-medium">

@@ -14,7 +14,7 @@ const Hero = () => {
         />
         <div className="absolute inset-0 flex flex-col justify-center px-4 md:px-10 space-y-2 md:space-y-4 text-white text-shadow-black">
           <h1 className="text-3xl md:text-5xl font-extrabold">Get Fresh</h1>
-          <h2 className="text-4xl md:text-6xl font-extrabold text-green-400">
+          <h2 className="text-4xl md:text-6xl font-extrabold text-green-500">
             Fruits & Vegetables
           </h2>
           <h3 className="text-xl md:text-3xl font-semibold">
@@ -39,13 +39,13 @@ const Hero = () => {
         {/* Text on the right */}
         <div className="w-full  md:w-1/2 p-6 md:p-8 text-center md:text-left space-y-3 bg-gradient-to-br from-white via-green-50 to-green-100">
           <h1 className="text-3xl md:text-5xl font-extrabold text-gray-800">
-            Arivona is Here!
+            Arivo is Here!
           </h1>
           <h2 className="text-xl md:text-3xl font-bold text-green-600">
             India’s Group Buying Grocery Platform
           </h2>
-          <p className="text-base md:text-lg text-yellow-600 font-medium">
-            Fair prices for you. Better incomes for farmers.
+          <p className="text-base md:text-lg text-yellow-600 font-bold">
+            Fair prices for you ,Better incomes for farmers.
           </p>
         </div>
       </div>
@@ -56,7 +56,7 @@ const Hero = () => {
         className="bg-gray-100 rounded-xl mx-4 py-12 px-4 md:px-8 shadow-md">
         <div className="text-center mb-8">
           <h2 className="text-4xl font-bold text-green-700 mb-4">
-            What is Arivona?
+            What is Arivo?
           </h2>
         </div>
 
@@ -64,13 +64,13 @@ const Hero = () => {
           <div className="w-full md:w-1/2">
             <img
               src={img1}
-              alt="Arivona Group Buying"
+              alt="Arivo Group Buying"
               className="rounded-lg shadow-md w-full object-cover"
             />
           </div>
           <div className="w-full md:w-1/2 text-center md:text-left space-y-4">
             <p className="text-lg text-gray-700 leading-relaxed font-semibold">
-              Arivona is revolutionizing the way Bharat buys groceries. Through
+              Arivo is revolutionizing the way Bharat buys groceries. Through
               our group-buying model, we connect communities directly with
               farmers, cutting out costly middlemen.
             </p>
@@ -90,7 +90,7 @@ const Hero = () => {
           <h2 className="text-3xl font-bold text-gray-800">Our Mission</h2>
         </div>
         <p className="text-lg text-gray-700 max-w-3xl mx-auto leading-relaxed text-center">
-          At Arivona, our mission is simple — make high-quality groceries more
+          At Arivo, our mission is simple — make high-quality groceries more
           affordable for every Indian household by connecting them directly with
           farmers and producers. By eliminating the middlemen, we ensure fresh,
           affordable, and sustainable produce for our customers.
@@ -170,7 +170,7 @@ const Hero = () => {
         id="why-choose-us"
         className="bg-green-50 rounded-xl mx-4 py-12 px-4 md:px-8 shadow-md">
         <h2 className="text-3xl font-bold text-center text-gray-800 mb-8">
-          Why Choose Arivona?
+          Why Choose Arivo?
         </h2>
         <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-8 text-gray-700 text-lg">
           <div className="space-y-4">
@@ -179,8 +179,8 @@ const Hero = () => {
                 Direct Access to Fresh Produce
               </h4>
               <p>
-                With Arivona, you receive fresh produce directly from the farm
-                to your doorstep, ensuring quality and taste.
+                With Arivo, you receive fresh produce directly from the farm to
+                your doorstep, ensuring quality and taste.
               </p>
             </div>
             <div>
@@ -197,8 +197,8 @@ const Hero = () => {
                 Support Local Farmers
               </h4>
               <p>
-                By purchasing through Arivona, you're supporting local farmers
-                and promoting sustainable agriculture.
+                By purchasing through Arivo, you're supporting local farmers and
+                promoting sustainable agriculture.
               </p>
             </div>
           </div>
@@ -239,7 +239,7 @@ const Hero = () => {
           <div className="w-full md:w-1/2 flex justify-center">
             <img
               src={img2}
-              alt="Arivona App Preview"
+              alt="Arivo App Preview"
               className="w-full max-w-sm rounded-lg shadow-lg"
             />
           </div>
@@ -252,9 +252,21 @@ const Hero = () => {
             <p className="text-lg text-gray-700 leading-relaxed">
               Experience the ease of getting fresh fruits and vegetables right
               from your phone. With just a few taps, place your order and enjoy
-              doorstep delivery. Join the Arivona community today and support
+              doorstep delivery. Join the Arivo community today and support
               local farmers while saving more.
             </p>
+
+            <a
+              href="https://play.google.com/store/apps/details?id=com.app.arimart"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block mt-4">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
+                alt="Get it on Google Play"
+                className="w-40"
+              />
+            </a>
           </div>
         </div>
       </section>

@@ -12,7 +12,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto grid md:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-6">
         {/* Column 1 - Logo & Tagline */}
         <div>
-          <h2 className="text-2xl font-bold text-green-700 mb-2">Arivona</h2>
+          <h2 className="text-2xl font-bold text-green-700 mb-2">Arivo</h2>
           <p className="text-sm">
             Revolutionizing grocery shopping through group buying — fair prices
             for consumers, better income for farmers.
@@ -74,12 +74,12 @@ const Footer = () => {
           <p>
             Email:{" "}
             <a
-              href="mailto:support@arivona.in"
+              href="mailto:support@Arivo.in"
               className="text-green-700">
-              support@arivona.in
+              support@Arivo.in
             </a>
           </p>
-          
+
           <p>Location: India</p>
         </div>
 
@@ -112,7 +112,7 @@ const Footer = () => {
       </div>
 
       <div className="border-t border-gray-300 mt-6 pt-4 text-center text-sm text-gray-600">
-        © {new Date().getFullYear()} Arivona. All rights reserved.
+        © {new Date().getFullYear()} Arivo. All rights reserved.
       </div>
     </footer>
   );
